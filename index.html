@@ -5,13 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Thoughtful objects for slower, more considered living.">
   <title>Morrow Objects | Everyday, considered</title>
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://images.unsplash.com">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
     <nav class="site-nav" aria-label="Main navigation">
-      <a class="wordmark" href="#home" aria-label="Morrow Objects home">morrow<span>.</span></a>
+      <a class="wordmark" href="#top" aria-label="Morrow Objects home">morrow<span>.</span></a>
       <ul class="nav-links">
         <li><a href="#collection">Shop all</a></li>
         <li><a href="#story">Our story</a></li>
@@ -21,7 +22,7 @@
     </nav>
   </header>
 
-  <main id="home">
+  <main id="top">
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-copy">
         <p class="eyebrow">Objects for the everyday</p>
@@ -46,9 +47,10 @@
       </div>
 
       <div class="product-grid">
-        <article class="product-card">
+        <article class="product-card flex flex-col rounded-2xl p-4 shadow-md">
           <a class="product-image" href="#product-1" aria-label="View the Forma ceramic vase">
             <img src="https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=900&q=85" alt="Hand-shaped cream ceramic vase on a warm neutral background">
+            <span class="sale-badge">Sale</span>
           </a>
           <div class="product-info">
             <div><h3>Forma Ceramic Vase</h3><p>A quiet shape for wild stems.</p></div>
@@ -103,7 +105,7 @@
   <footer class="site-footer" id="journal">
     <div class="footer-top">
       <div class="footer-brand">
-        <a class="wordmark" href="#home">morrow<span>.</span></a>
+        <a class="wordmark" href="#top">morrow<span>.</span></a>
         <p>Thoughtful objects.<br>Room to breathe.</p>
       </div>
       <nav class="footer-column" aria-label="Shop links">
@@ -130,5 +132,6 @@
       <a href="#instagram">Instagram ↗</a>
     </div>
   </footer>
+  <a class="back-to-top" href="#top" aria-label="Back to top">↑</a>
 </body>
 </html>
